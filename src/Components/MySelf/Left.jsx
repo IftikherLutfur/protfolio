@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Left = () => {
     return (
-        <div className="px-10">
+        <div className="pl-10">
             
             <div className="my-5">
             <h1 className="text-4xl font-bold mb-5 uppercase">Skills</h1>
@@ -17,12 +17,12 @@ const Left = () => {
             </div>
             <hr />
             <div className="my-5">
-            <h1 className="text-4xl font-bold mb-5 uppercase">Skills</h1>
+            <h1 className="text-4xl font-bold mb-5 uppercase">Experience</h1>
           <p>I completed a Web Development course at Programming Hero. There, I learned to write and style HTML and CSS for websites, make them dynamic with JavaScript and React JS, manage data with MongoDB, and handle authentication using Firebase. I have been coding consistently for the past six months and am becoming more efficient day by day while exploring new technologies.</p>
             </div>
             <hr />
-<div className="mb-4">
-    <h2 className="text-2xl font-bold mb-2">So far i explored:</h2>
+<div className="my-4">
+    <h2 className="text-2xl font-bold mb-6">So far i explored:</h2>
 
             <Marquee>
  <div className="mx-2"><img className="w-20 h-16" src="https://upload.wikimedia.org/wikipedia/commons/d/de/HTML5_oval_logo.png" alt="" /></div>

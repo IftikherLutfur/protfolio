@@ -2,7 +2,7 @@ import {  MdWebAsset } from "react-icons/md";
 
 const Right = () => {
     return (
-        <div className="text-black bg-white px-10">
+        <div className="text-black bg-slate-200 px-10">
              <div className="my-5">
             <h1 className="text-4xl font-bold">ABOUT ME</h1>
             <p className="text-xl font-semibold mt-3">Hi, There! I am Iftikher Lutfur Abdullah </p>
@@ -40,7 +40,7 @@ const Right = () => {
             <p className="font-semibold opacity-85">Daksinacharan Pilot High School</p>
            </div>
             </div>
-            <hr />
+            <br /><br />
 
         </div>
     );

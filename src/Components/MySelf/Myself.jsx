@@ -6,6 +6,7 @@ const Myself = () => {
         <div className="text-white grid grid-cols-1 lg:grid-cols-2 gap-5 mb-5">
             <Left/>
             <Right/>
+           
         </div>
     );
 };

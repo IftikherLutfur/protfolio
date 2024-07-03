@@ -1,9 +1,8 @@
 import {  } from "react-router-dom";
 import Navbar from "./Components/Shared/Navbar";
 import Banner from "./Components/Banner/Banner";
-import Services from "./Components/Servoces/Services";
 import Myself from "./Components/MySelf/Myself";
-import Skills from "./Components/Skills/Skills";
+import Projects from "./Components/Projects/Projects";
 
 const Home = () => {
     return (
@@ -11,6 +10,7 @@ const Home = () => {
             <Navbar/>
             <Banner/>
             <Myself/>
+            <Projects/>
             {/* <Skills/> */}
             {/* <Services/> */}
             
