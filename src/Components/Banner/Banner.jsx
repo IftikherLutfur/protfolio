@@ -1,6 +1,14 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
+
+    const download = () =>{
+        console.log('clicked');
+        const fileUrl = "https://i.ibb.co/BwvtZN4/Screenshot-2348.png";
+        (fileUrl)
+    }
+
+
     return (
         <div className="bg-purple-950 text-white">
            <div className="flex justify-around items-center px-4 py-4">
@@ -9,7 +17,7 @@ const Banner = () => {
              <h1 className="text-4xl font-bold mb-2">Web Developer</h1>
              <p className="font-semibold opacity-85">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
              <div className=" flex items-center gap-10 mt-10">
-                <p><a className="btn border-2 rounded-lg text-purple-300 border-purple-400 p-2">Download CV</a></p>
+                <button><a href="https://i.ibb.co/BwvtZN4/Screenshot-2348.png" onClick={download} className="btn border-2 rounded-lg text-purple-300 border-purple-400 p-2">Download CV</a></button>
                 <p className="text-purple-300"><a href=""><FaFacebook/></a></p>
                 <p className="text-purple-300"><a href=""></a><FaLinkedin/></p>
                 <p className="text-purple-300"><a href=""></a><FaGithub/></p>
