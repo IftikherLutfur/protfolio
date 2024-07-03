@@ -15,9 +15,9 @@ const Banner = () => {
            <div className="">
              <p className="text-xl font-semibold mb-1">I am Iftikher Lutfur Abdullah</p>
              <h1 className="text-4xl font-bold mb-2">Web Developer</h1>
-             <p className="font-semibold opacity-85">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+             <p className="font-semibold opacity-85">A Passionate Front End Web Developer</p>
              <div className=" flex items-center gap-10 mt-10">
-                <button><a href="https://i.ibb.co/BwvtZN4/Screenshot-2348.png" onClick={download} className="btn border-2 rounded-lg text-purple-300 border-purple-400 p-2">Download CV</a></button>
+                <button><a href="https://docs.google.com/document/d/1yuDseJ3ZaXH_C2wzgtr8xDYJ16dssijGwBzpahEc3uo/edit?usp=sharing" onClick={download} className="btn border-2 rounded-lg text-purple-300 border-purple-400 p-2">Download CV</a></button>
                 <p className="text-purple-300"><a href=""><FaFacebook/></a></p>
                 <p className="text-purple-300"><a href=""></a><FaLinkedin/></p>
                 <p className="text-purple-300"><a href=""></a><FaGithub/></p>

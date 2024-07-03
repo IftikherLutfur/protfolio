@@ -2,6 +2,7 @@ import {
     createBrowserRouter,
   } from "react-router-dom";
 import Home from "./Home";
+import BlogDetails from "./Components/Blogs/BlogDetails";
 
 
 
@@ -10,6 +11,11 @@ import Home from "./Home";
       path: "/",
       element: <Home/> ,
     },
+    {
+      path:"/more/:id",
+      element:<BlogDetails/>,
+      loader:()=>fetch("blogs.json/more")
+    }
     
   ]);
   export default router;

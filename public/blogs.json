@@ -1,0 +1,33 @@
+[
+    {
+      "_id": 1,
+      "image":"https://img-c.udemycdn.com/course/480x270/5250940_cd0d_2.jpg",
+      "title": "Getting Started with HTML and CSS",
+      "description": "Discuss the basics of HTML and CSS. Provide tips for beginners on structuring and styling their first web pages. Include a simple project tutorial, such as creating a personal portfolio or a basic webpage."
+    },
+    {
+      "_id": 2,
+      "image":"https://blog.function12.io/content/images/2023/09/An-Essential-Tools-for-Front-End-Developers.jpg",
+      "title": "JavaScript Essentials for Front-End Developers",
+      "description": "Cover fundamental JavaScript concepts and how they apply to web development. Explain variables, functions, loops, and event handling. Offer practical examples and code snippets to illustrate key concepts."
+    },
+    {
+      "_id": 3,
+      "image":"https://media.licdn.com/dms/image/D5612AQHjkNFX6PJZlQ/article-cover_image-shrink_720_1280/0/1662989841603?e=2147483647&v=beta&t=ouxNgeTtQzkhUNU5y9Uft8kBTDBXirXBNr9zQAklo5Y",
+      "title": "Introduction to React JS",
+      "description": "Explain the benefits of using React for front-end development. Walk through the process of setting up a React project. Create a simple React application, such as a to-do list or a weather app."
+    },
+    {
+      "_id": 4,
+      "image":"https://themesberg.s3.us-east-2.amazonaws.com/public/posts/tailwind-css-vs-bootstrap.jpg",
+      "title": "Styling with CSS Frameworks: Tailwind CSS vs. Bootstrap",
+      "description": "Compare popular CSS frameworks like Tailwind CSS and Bootstrap. Discuss the pros and cons of each framework. Provide examples of how to use each framework to style a webpage."
+    },
+    {
+      "_id": 5,
+      "image":"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201127133738/firebase-introduction-4.png",
+      "title": "Using Firebase for Authentication and Database Management",
+      "description": "Introduce Firebase and its services relevant to front-end developers. Explain how to set up Firebase authentication in a React app. Show how to use Firebase Firestore for managing app data, with a simple CRUD (Create, Read, Update, Delete) application example."
+    }
+  ]
+  

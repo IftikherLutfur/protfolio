@@ -3,7 +3,7 @@ import { TbWorld } from "react-icons/tb";
 
 const Projects = () => {
     return (
-        <div>
+        <div className="mb-5">
             <h1 className="text-4xl font-bold text-white text-center uppercase my-10">my recent projects</h1>
 
             <div className="mx-5 w-96">
