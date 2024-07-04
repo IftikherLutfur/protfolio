@@ -4,6 +4,7 @@ import {
 import Home from "./Home";
 import BlogDetails from "./Components/Blogs/BlogDetails";
 import Projects from "./Components/Projects/Projects";
+import Blogs from "./Components/Blogs/Blogs";
 
 
 
@@ -15,6 +16,10 @@ import Projects from "./Components/Projects/Projects";
     {
       path:'/projects',
       element:<Projects/>
+    },
+    {
+      path:'/blogs',
+      element:<Blogs/>
     },
     {
       path:"/more/:id",

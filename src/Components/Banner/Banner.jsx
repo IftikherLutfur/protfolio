@@ -18,9 +18,9 @@ const Banner = () => {
              <p className="font-semibold opacity-85">A Passionate Front End Web Developer</p>
              <div className=" flex items-center gap-10 mt-10">
                 <button><a href="https://docs.google.com/document/d/1yuDseJ3ZaXH_C2wzgtr8xDYJ16dssijGwBzpahEc3uo/edit?usp=sharing" onClick={download} className="btn border-2 rounded-lg text-purple-300 border-purple-400 p-2">Download CV</a></button>
-                <p className="text-purple-300"><a href=""><FaFacebook/></a></p>
-                <p className="text-purple-300"><a href=""></a><FaLinkedin/></p>
-                <p className="text-purple-300"><a href=""></a><FaGithub/></p>
+                <p className="text-purple-300"><a href="https://www.facebook.com/Iftikherlutfur"><FaFacebook/></a></p>
+                <p className="text-purple-300"><a href="https://www.linkedin.com/in/iftikher-lutfur-094a41256/"><FaLinkedin/></a></p>
+                <p className="text-purple-300"><a href="https://github.com/IftikherLutfur"><FaGithub/></a> </p>
                 
              </div>
             </div>
