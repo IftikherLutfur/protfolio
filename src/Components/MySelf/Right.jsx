@@ -1,4 +1,3 @@
-import {  MdWebAsset } from "react-icons/md";
 
 const Right = () => {
     return (
@@ -21,7 +20,6 @@ const Right = () => {
             <p className="flex text-black font-semibold  item-center my-3 gap-1">
             <span className="mr-2">Address</span> : <span className="ml-3 opacity-85">Habiganj, Sylhet Bangladesh</span></p>
            
-            <p className="flex text-black item-center my-3 gap-1"><MdWebAsset/>www.protfolio</p>
             </div>
             </div>
             <hr />
